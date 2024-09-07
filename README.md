@@ -1,5 +1,3 @@
-# car-price-model
-
 # Professional Certificate in Machine Learning and Artificial Intelligence
 ## Module 11: Practical Application 2: What Drives the Price of a Car?
 
