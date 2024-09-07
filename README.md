@@ -6,7 +6,9 @@ The data comes from a subset of a Kaggle dataset but was given in the form of a 
 Link for the [The Jupyter Notebook](https://github.com/tshih94/car-price-model/blob/main/car-price.ipynb)
 
 ## Findings
-After doing my best to fill in missing information and removing obviously erroneous information, the model with the best mean squared error on the test data was the Ridge model with alpha = 1.0. It found luxury and premium marques such as Lexus, Maserati, and Porsche as well as special marques such as Tesla to sell for quite higher prices compared to other marques. Bigger work vehicle types such as trucks and pickups also commanded a premium compared to other types of cars. Additionally, manual transmissions and running on diesel boosted the price, as well as cleaner bills of health for condition and title status.
+After doing my best to fill in missing information and removing obviously erroneous information, the model with the best mean squared error on the test data was the Ridge model with alpha = 1.0. It found luxury and premium marques such as Lexus, Maserati, and Porsche as well as special marques such as Tesla to sell for quite higher prices compared to other marques. Bigger work vehicle types such as trucks and pickups also commanded a premium compared to other types of cars. Additionally, manual transmissions and running on diesel boosted the price, as well as cleaner bills of health for condition and title status. As expected, the more miles recorded on the odometer and the older a given car was also dropped its price.
+
+On the other end, marques with poor reputations, such as Fiat, dragged down prices they were listed at. Cars listed with a poor prior history, such as being in a poor condition or being rebuilt also incurred large penalties to the price.
 
 ## Built With
 * [Jupyter Notebooks](https://jupyter.org/) - Python3
